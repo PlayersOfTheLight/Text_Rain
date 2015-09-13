@@ -13,4 +13,8 @@ In order to run this implementation, you will need to download the Processing ID
 
 Go to Sketch->Import Libraries->Install Video library if there is no green checkmark next to the library 
 
-Click the play button to start the show! 
+Text_Rain.pde is the main file. It initializes the cameras and data stuructes, plays the video, identifies dark and light areas of the video, and overlays text on the boundries. Calls subroutines in Letter.pde. 
+
+Letter.pde is the file that contains the font and letter movement subroutines. 
+
+Click the play button on Text_Rain.pde to start the show! 
